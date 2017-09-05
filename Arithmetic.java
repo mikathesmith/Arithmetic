@@ -1,6 +1,11 @@
 import java.util.*;
 import java.io.*;
 
+/*
+*Author Mika Smith, Mathew Boyes
+*
+*/
+
 
 public class Arithmetic{
 	
