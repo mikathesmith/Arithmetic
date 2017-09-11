@@ -30,6 +30,7 @@ public class Arithmetic{
 	
 	public static String calculate(LargeInt x, LargeInt y, char op){
 		String result="";
+		
 		result+=ConvertString(x); 
 		result+= op;
 		result+=ConvertString(y); 
@@ -71,6 +72,7 @@ public class Arithmetic{
 		public String ConvertString(LargeInt l){
 			return Integer.toString(l.value);
 		}
+		
 		/*
 		
 		public largeInt subtract(largeInt x, largeInt y){
